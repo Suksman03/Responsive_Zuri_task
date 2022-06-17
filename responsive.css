@@ -10,6 +10,7 @@
 
 html,
 body {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,14 +34,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 60px;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 20px 0;
     margin: 0 auto;
 }
 
 .sub-head {
     width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: var(--Blue);
     color: rgb(233, 230, 230);
     text-align: center;
@@ -64,7 +65,7 @@ body {
 
 .data {
     margin-top: 10px;
-    height: 50px;
+    height: 20px;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid var(--Grayish-Blue);
@@ -90,14 +91,13 @@ button:hover {
 .form-text h1 {
     color: white;
     font-size: 50px;
-    font-family: "poppins", sans-serif;
     font-weight: 700;
 }
 
 .form-text p {
     color: rgb(233, 230, 230);
     font-weight: 500;
-    font-family: "poppins", sans-serif;
+    font-family: " Poppins", sans-serif;
 }
 
 .terms {
@@ -105,6 +105,7 @@ button:hover {
     font-size: 12px;
     margin-top: 2px;
     text-align: center;
+    font-family: "po";
 }
 
 .terms b {
@@ -161,10 +162,12 @@ button:hover {
     }
 
     .form-text h1 {
-        font-size: 40px;
+        font-size: 30px;
+        font-family: " Poppins", sans-serif;
     }
 
     .form-text p {
+        font-family: " Poppins", sans-serif;
         margin-top: 20px;
         font-size: 80%;
     }
