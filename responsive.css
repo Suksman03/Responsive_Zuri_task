@@ -28,7 +28,7 @@ body {
 }
 
 .reg-form {
-    width: 100%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -144,21 +144,23 @@ button:hover {
     }
 
     .register {
+        
         margin: 0 !important;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap:none;
         border-radius: 5px;
         box-shadow: 0 7px 0 rgba(0, 0, 0, 0.20);
         background-color: white;
         justify-content: center;
         align-items: center;
     }
-
+     
     .data {
         height: 30px;
         display: flex;
         width: 90%;
+        
     }
 
     .form-text h1 {
@@ -176,3 +178,10 @@ button:hover {
         font-size: 50%;
     }
 }
+.fas{
+    
+    color: red;
+    visibility: hidden;
+   
+}
+ 
